@@ -141,7 +141,7 @@ h5 {
 .section-1,
 .section-3,
 .insta-grid,
-.insta-link {
+.container-custom-insta {
   background-color: var(--cream);
 }
 
@@ -296,8 +296,11 @@ h5 {
 .insta-link {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  width: 90%;
+  max-width: 1450px;
+  margin: auto;
 }
 .insta-link .moments,
 .view-btn {
